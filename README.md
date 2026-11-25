@@ -14,11 +14,11 @@ This project was developed as a research-oriented decision-support tool, impleme
 
 ## 📊 Experimental Results
 
-The models were trained on a dataset of **7,200 MRI images** (split 70% Train, 15% Validation, 15% Test).
+The models were trained on a dataset of **7,200 MRI images** (split 70% Train, 15% Validation, 15% Test). 
 
 | Model Configuration | Test Accuracy | AUC-ROC | F1-Score |
 | :--- | :--- | :--- | :--- |
-| **ResNet50 (Baseline)** | 98.06% | 0.9980 | 0.9806 |
+| **ResNet50 (Baseline)** | 98.24% | 0.9980 | 0.9824 |
 | **EfficientNetB0 (Baseline)** | 98.33% | 0.9992 | 0.9833 |
 | **Ensemble (No Attention)** | 98.52% | 0.9990 | 0.9852 |
 | **Ensemble (With Attention)** | 98.43% | 0.9987 | 0.9843 |
